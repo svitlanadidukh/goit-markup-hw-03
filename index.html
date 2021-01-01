@@ -8,24 +8,27 @@
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
     rel="stylesheet"/>
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
     <!--ШАПКА-->
     <header class="page-header">
-        <nav class="site-nav">
+        <nav class="site-nav main">
         <a href="" class="link"><span class="accent">Web</span><span class="accent1">Studio</span></a>
-            <ul> 
-                <li><a href="" class="link1 current">Cтудия</a></li>
-                <li><a href="./portfolio.html" class="link2">Портфолио</a></li>
-                <li><a href="" class="link2">Контакты</a></li>
+        <ul class="site-menu"> 
+                <li class="item"><a href="" class="link1 current">Cтудия</a></li>
+                <li class="item"><a href="./portfolio.html" class="link2">Портфолио</a></li>
+                <li class="item"><a href="" class="link2">Контакты</a></li>
+            </ul>
+        
+            <ul class="contacts">
+                <li class="item"><a href="mailto:info@devstudio.com" class="contacts-mail">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="contacts-phone">+38 096 111 11 11</a></li>
             </ul>
         </nav>
-            <ul class="contacts">
-                <li><a href="mailto:info@devstudio.com" class="contacts-mail">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="contacts-phone">+38 096 111 11 11</a></li>
-            </ul>
     </header>
 
     <main>
@@ -37,34 +40,34 @@
     
     <!--СЕКЦИЯ 2-->
     <section class="section2">
-        <ul>
-            <li>
+        <ul class="text">
+            <li class="item">
                 <h3 class="section2-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                 <p class="section2-text">Идейные соображения, а также начало повседневной работы по формированию позиции</p>
             </li>
-            <li>
+            <li class="item">
                 <h3 class="section2-title">ПУНКТУАЛЬНОСТЬ</h3>
                 <p class="section2-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой</p>
             </li>
-            <li>
+            <li class="item">
                 <h3 class="section2-title">ПЛАНИРОВАНИЕ</h3>
                 <p class="section2-text">Равным образом консультация с широким активом в значительной степени обуславливает</p>
             </li>
-            <li>
+            <li class="item">
                 <h3 class="section2-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                 <p class="section2-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий</p>
             </li>
         </ul>
 
         <h2 class="section2-title1">Чем мы занимаемся</h2>
-        <ul>
-            <li>
+        <ul class="text">
+            <li class="item">
                 <img src="./img/img11.jpg" alt="computer" width="370" />
             </li>
-            <li>
+            <li class="item">
                 <img src="./img/img22.jpg" alt="phone" width="370" />
             </li>
-            <li>
+            <li class="item"> 
                 <img src="./img/img33.jpg" alt="tablet" width="370" />
             </li>
         </ul>
@@ -73,29 +76,29 @@
     <!-- СЕКЦИЯ 3 -->
         <section class="section3">
                 <h2 class="section3-main">Наша команда</h2>
-            <ul>
-                <li>
+            <ul class="text">
+                <li class="item">
                     <a href=""><img src="./img/img.jpg" alt="designer" width="270" /></a>
                     
                     <h3 class="section3-name">Игорь Демьяненко</h3>
                     <p class="section3-title">Product Designer</p>
                
                 </li>
-                <li>
+                <li class="item">
                     <a href=""><img src="./img/img-2.jpg" alt="developer" width="270" /></a>
                     
                     <h3 class="section3-name">Ольга Репина</h3>
                     <p class="section3-title">Frontend Developer</p>
                 
                 </li>
-                <li>
+                <li class="item">
                     <a href=""><img src="./img/img-3.jpg" alt="marketing" width="270" /></a>
                     
                     <h3 class="section3-name">Николай Тарасов</h3>
                     <p class="section3-title">Marketing</p>
                
                 </li> 
-                <li>
+                <li class="item">
                     <a href=""><img src="./img/img-4.jpg" alt="designer2" width="270" /></a>
                    
                     <h3 class="section3-name">Михаил Ермаков</h3>
@@ -107,7 +110,7 @@
 </main>
 
         <!--Финал-->
-        <footer>
+        <footer class="container-b">
             <ul>
                 <li>
        <p><a href="" class="logo"><span class="accent2">Web</span><span class="accent3">Studio</span></a></p>
